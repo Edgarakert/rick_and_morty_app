@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_color"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".view.fragments.SecondFragment">
+
+    <ImageView
+        android:id="@+id/person_image"
+        android:layout_margin="8dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/status_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="@string/status_label"
+        android:textColor="#C8C8C8"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/person_status"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Hello world"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/location_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="@string/location_label"
+        android:textColor="#C8C8C8"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/person_location"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+
+        android:gravity="center"
+        android:text="Hello world"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/origin_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+
+        android:text="@string/origin_label"
+        android:textColor="#C8C8C8"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/person_origin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        android:gravity="center"
+        android:text="Hello world"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</LinearLayout>
