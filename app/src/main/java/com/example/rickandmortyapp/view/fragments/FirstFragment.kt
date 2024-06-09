@@ -13,10 +13,11 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.rickandmortyapp.R
-import com.example.rickandmortyapp.appComponent
+//import com.example.rickandmortyapp.appComponent
 import com.example.rickandmortyapp.databinding.FragmentFirstBinding
 import com.example.rickandmortyapp.model.entity.PersonModel
 import com.example.rickandmortyapp.utils.Constants
+import com.example.rickandmortyapp.utils.appComponent
 import com.example.rickandmortyapp.utils.error.CacheException
 import com.example.rickandmortyapp.utils.error.ServerException
 import com.example.rickandmortyapp.utils.toast
@@ -91,8 +92,7 @@ class FirstFragment : Fragment(), FirstFragmentListener {
         if (isNotCalled) {
             isNotCalled = false
             duration = 1200L
-        }
-        else
+        } else
             duration = 0L
 
         Handler().postDelayed({
