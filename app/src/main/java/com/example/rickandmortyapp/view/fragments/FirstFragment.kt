@@ -13,7 +13,6 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.example.rickandmortyapp.R
-//import com.example.rickandmortyapp.appComponent
 import com.example.rickandmortyapp.databinding.FragmentFirstBinding
 import com.example.rickandmortyapp.model.entity.PersonModel
 import com.example.rickandmortyapp.utils.Constants
@@ -108,6 +107,7 @@ class FirstFragment : Fragment(), FirstFragmentListener {
         )
     }
 
+    @Deprecated("Deprecated in Java")
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
         super.onCreateOptionsMenu(menu, inflater)
 
